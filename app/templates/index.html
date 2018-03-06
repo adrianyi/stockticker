@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     {% if plot_script is defined %}
     <link href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.7.min.css" rel="stylesheet" type="text/css">
-    <!-- <link href="httsp://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.7.min.css" rel="stylesheet" type="text/css"> -->
-    <link href="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.7.min.css" rel="stylesheet" type="text/css">
     {% endif %}
   </head>
   <body>
@@ -78,8 +76,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     {% if plot_script is defined %}
     <script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.7.min.js"></script>
-    <!-- <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.7.min.js"></script> -->
-    <script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.7.min.js"></script>
     {{ plot_script | safe }}
     {% endif %}
     <script></script>
